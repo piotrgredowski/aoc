@@ -4,6 +4,6 @@ extend = ".ruff.base.toml"
 fix = true
 
 [lint]
-extend-ignore = []
+extend-ignore = ["D", "T201", "INP001"]
 
 [lint.extend-per-file-ignores]
