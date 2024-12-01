@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: '6090571'
+_src_path: https://github.com/piotrgredowski/yet-another-python-project-template
+author_email: piotrgredowski@gmail.com
+author_name: Piotr Grędowski
+ci_provider: github
+get_newest_version_of_libraries_from_web: true
+module_name: advent_of_code
+project_name: Advent of Code
+python_version: '3.12'
+should_ask_for_dependencies: false
+should_freeze_dependencies: false
+use_mypy: true
+use_precommit: true
+use_ruff: true
+use_uv: true
