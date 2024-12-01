@@ -19,7 +19,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
 
     - name: Install Copier and required dependencies
-      run: uv pip install --system copier copier-templates-extensions requests
+      run: uv pip install --system copier copier-templates-extensions
 
     - name: Update Copier Template
       run: |
@@ -30,7 +30,7 @@ jobs:
           --overwrite \
           --skip .ruff.toml \
           --skip .github/workflows
-          
+
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v7
