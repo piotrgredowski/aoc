@@ -35,7 +35,7 @@ def get_similarity_score(left: list[int], right: list[int]) -> int:
 
 
 if __name__ == "__main__":
-    path_to_input = pathlib.Path(__file__).parent / "day1_input"
+    path_to_input = pathlib.Path(__file__).parent / "day_1_input"
 
     left, right = load_input(path_to_input)
 
